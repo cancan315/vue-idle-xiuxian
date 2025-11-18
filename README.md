@@ -38,11 +38,11 @@
 version: '3.9'
 services:
     vue-idle-xiuxian:
-        image: kowming/vue-idle-xiuxian:latest
+        image: registry.cn-hongkong.aliyuncs.com/velero/vue-idle-xiuxian:20251118
         container_name: xiuxian
         restart: unless-stopped
         ports:
-            - 8183:8080
+            - 8183:80
         tty: true
         stdin_open: true
 ```
