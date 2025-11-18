@@ -39,6 +39,9 @@ export default defineConfig({
       }
     }
   },
+  preview: {
+    allowedHosts: true
+  },
   plugins: [
     vue(),
     AutoImport({
